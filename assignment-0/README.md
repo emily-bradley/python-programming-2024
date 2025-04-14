@@ -1,38 +1,138 @@
-# Assignment 0:  Welcome to Python Programming!
+# Assignment 0: Welcome to Python Programming!
 
+Welcome to **Python Programming – Spring 2025**!  
 This assignment is a quick walk-through to help you get set up logistically for the course.  It isn't a real assignment (no problems to solve) and counts towards a small percentage of your grade (because you can't do the other assignments without it!).
+---
+
+## ✅ Objectives
+
+- Set up access to Google Colab  
+- Create and link a GitHub repository  
+- Run your first notebook  
+- Understand the basic tools used in this course  
+
+---
 
 **READ ALL OF THESE STEPS BEFORE RUNNING ANYTHING!**
 
-Now we'll get you all set up with the software packages and the course GitHub.
+## 🧰 Instructions
 
-1. Set up a github account. All assignemnts for this course will be distributed thorugh GitHub Classroom. You will slack links to generate the assignment repo for you. You must accept the assignments to start on them.
+### 1. Sign in to Google Colab
+- Visit [Google Colab](https://colab.research.google.com/)
+- Sign in with your Google account
 
-2. **Set up your computing environment:** We are going to use Google Colab for this class.  It provides free access to a GPU which we may use in later assignments.  In your Google Drive, create a folder for this class.  You will be saving the Colab notebooks you run in this folder.
+**Set up your computing environment:**  
+We are going to use **Google Colab** for this class. It provides free access to a GPU, which we may use in later assignments.  
+In your **Google Drive**, create a folder for this class. You will be saving the Colab notebooks you run in this folder.
 
-3. **Clone the course repo** On your laptop or local machine run this command in a terminal:
-`git clone https://github.com/emily-bradley/python-programming-2024.git`
-You will use this local copy to get updates as we post them and to store your work.  This [course git repo]([https://github.com/emily-bradley/intro-to-machine-learning-2024/tree/main](https://github.com/emily-bradley/python-programming-2024/tree/main)) is independent of the GDrive folder. You will also submit work from this repository.
+- Open a new notebook and try running this simple cell:
 
-4. **Link your personal github account** at [this link](https://classroom.github.com/a/4O2f-hBD). This will link your personal github repository with your name on the classroom roster. We'll use this for holding assignments that you have completed so the instructors can collect them for grading; it's private to you and the instructors. 
+    ```python
+    print("Hello, Python 2025!")
+    ```
 
-You'll run a `git add .`, `git commit -m "message"`, and  `git push` to push things from your laptop/computer (where you do your work) to this private (to you and the instructors) classroom repo.
+---
 
-5. **Open and run a0 notebook in Colab**. Copy the `Python_Porgramming_Assignment_0.ipynb` notebook to the folder you created in GDrive. Then you double click on it to open it in Colab.  This notebook makes some simple checks and gives a taste of some of the kinds of packages we'll be working with. You don't need to write any code here - just run the cells and save.  After you have run the notebook, go to File -> Download and download an .ipynb version and overwrite the copy in you local git repository. There you can commit it to your local repo.
+### 2. Create a GitHub Account (if you don’t already have one)
+- Go to [https://github.com/](https://github.com/) and create an account using your preferred email  
+- **Set up a GitHub account. All assignments for this course will be distributed through GitHub Classroom.**  
+- You will receive Slack links that generate a private assignment repository for you  
+- You must accept each assignment before starting work on it
 
-6. **Answer the questions in the notebook** in the `Python_Porgramming_Assignment_0.ipynb` makrdown cells. 
+> **Note**: If you choose to use `ssh` with Git, you'll need to follow [these instructions to generate an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
+> Then follow [these instructions to add your public key to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-7. **Push your changes from the local repo to the remote repository**: In the top level (root) of your local assignment repo (on your laptop or desktop machine) run the following commands:
-   `git add .`
-   `git commit -m "message"`
-   `git push`
-  For all assignments in this course, it's your responsibility to make sure your submission has made it to your classroom GitHub repo!
+---
 
-Each student who correctly submits their work will receive 5 points.
+### 3. Open the Assignment Link from the Slack Channel
+- Locate the **GitHub Classroom assignment link** posted in Slack  
+- Follow the link to create your own copy of the assignment repository  
+- Make sure your GitHub account is linked correctly to the classroom
 
-**Note:**
-If you choose ssh then you need to follow the directions [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate an ssh key on your laptop and then [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add the public key to your ssh account.
+---
 
-## Next...
+### 4. Run `Python_Programming_Assignment_0.ipynb` in Google Colab
+- Open the notebook in Colab by double-clicking it from your Google Drive folder  
+- If needed, copy the notebook to your class folder in Drive  
+- Run all cells in the notebook — no coding required  
+- This notebook runs a few checks and introduces tools we’ll use this term  
+- When finished:
+  - Go to **File → Download → Download `.ipynb`**
+  - Replace the notebook in your **local cloned GitHub repository**
 
-Continue on to Assignemnt 1 once it's released.  (Unlike Assignment 0, Assignment 1 isn't just a setup exercise.  Don't wait too long to get started!)
+---
+
+### 5. Create a `setup.txt` File
+- In the root of your local repository, add a file named `setup.txt` with the following content:
+
+    ```
+    Name: [Your Full Name]
+    GitHub Username: [Your GitHub Username]
+    Colab Tested: Yes
+    ```
+
+---
+
+### 6. Answer the Markdown Questions
+- In the `Python_Programming_Assignment_0.ipynb` notebook, fill in your answers in the provided Markdown cells
+
+---
+
+### 7. Push Your Changes to GitHub
+From the **root of your local assignment repository**, run the following commands:
+
+```bash
+git add .
+git commit -m "Completed Assignment 0"
+git push
+```
+> ✅ **For all assignments in this course**, it’s your responsibility to ensure your submission is pushed to your GitHub Classroom repository.
+
+### 💡 Optional: Use GitHub Web Interface Instead
+If you prefer not to use Git:
+
+- Go to your repository on [GitHub](https://github.com/)
+- Delete the original `Python_Programming_Assignment_0.ipynb` file  
+- Upload your updated file using **Add file → Upload files**  
+- Click **Commit changes** to finalize
+
+---
+
+## 📬 Submission
+
+No separate submission is required. Your instructor will review your GitHub Classroom repository.
+
+---
+
+## 💯 Grading (5%)
+
+Each student who correctly submits their work will receive **5 points**.
+
+| Task                                   | Points |
+|----------------------------------------|--------|
+| Colab notebook runs                    | 1      |
+| GitHub repo created via assignment link | 1      |
+| `setup.txt` file completed             | 1      |
+| Markdown questions answered            | 1      |
+| Pushed to GitHub successfully          | 1      |
+
+---
+
+## ⏭️ Next
+
+Continue on to **Assignment 1** once it’s released.  
+*(Unlike Assignment 0, Assignment 1 isn’t just a setup exercise. Don’t wait too long to get started!)*
+
+---
+
+## 🆘 Need Help?
+
+- Post in the class Slack `#help` channel  
+- Ask during class or office hours  
+- Refer to [GitHub Docs](https://docs.github.com/en)  
+- Review the [Colab FAQ](https://research.google.com/colaboratory/faq.html)  
+
+---
+
+Happy setup! 🎉
+
