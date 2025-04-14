@@ -1,6 +1,7 @@
 # Assignment 0: Welcome to Python Programming!
 
-Welcome to **Python Programming – Spring 2025**!  
+**Welcome to **Python Programming – Spring 2025**!  
+
 This assignment is a quick walk-through to help you get set up logistically for the course.  It isn't a real assignment (no problems to solve) and counts towards a small percentage of your grade (because you can't do the other assignments without it!).
 ---
 
